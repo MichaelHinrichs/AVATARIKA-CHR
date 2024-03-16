@@ -8,9 +8,9 @@ namespace AVATARIKA_CHR
     public class CHR2
     {
         public static BinaryReader br;
-        private List<Block2> block2;
-        private List<Vector3> faces;
-        private List<string> skel;
+        private List<Block2> block2 = new();
+        private List<Vector3> faces = new();
+        private List<string> skel = new();
 
         private static CHR2 Read(string CHRFile)
         {
